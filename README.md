@@ -1,5 +1,12 @@
-# Phoenix Template
+# Phxdock
 
-## 内容
+docker-compose for phoenix project.
 
-phoenixのバージョンに合わせてbranchを作成し、それぞれのversionで動作するdocker-compose templateを管理する
+## setup
+
+```
+$ git clone git@github.com:koga1020/phxdock.git .
+$ mv env-example .env
+$ echo "dotenv" > .envrc
+$ direnv allow
+```

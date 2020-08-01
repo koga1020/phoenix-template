@@ -1,0 +1,10 @@
+# common
+COMPOSE_PROJECT_NAME=sample
+
+# postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DEV_DB=sample_dev
+POSTGRES_TEST_DB=sample_test
+POSTGRES_PORT=5432
+DATA_PATH_HOST=./dockerfiles/db/data/

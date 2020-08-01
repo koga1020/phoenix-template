@@ -1,5 +1,5 @@
 # common
-COMPOSE_PROJECT_NAME=sample
+COMPOSE_PROJECT_NAME=
 
 # postgres
 POSTGRES_TAG=11.8-alpine

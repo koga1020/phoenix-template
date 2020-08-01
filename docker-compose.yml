@@ -9,7 +9,7 @@ services:
       ports:
         - "${POSTGRES_PORT}:5432"
       environment:
-        - POSTGRES_DEV_DB=${POSTGRES_DEV_DB}
-        - POSTGRES_TEST_DB=${POSTGRES_TEST_DB}
+        - POSTGRES_DEV_DB=${COMPOSE_PROJECT_NAME}_dev
+        - POSTGRES_TEST_DB=${COMPOSE_PROJECT_NAME}_test
         - POSTGRES_USER=${POSTGRES_USER}
         - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}

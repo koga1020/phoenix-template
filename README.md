@@ -16,4 +16,5 @@ $ echo ".env" >> .gitignore
 $ echo ".envrc" >> .gitignore
 $ echo $DATA_PATH_HOST >> .gitignore
 $ docker-compose up -d
+$ mix phx.server
 ```

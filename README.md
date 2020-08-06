@@ -14,7 +14,7 @@ $ direnv allow
 $ mix phx.new . --app some_app
 $ echo ".env" >> .gitignore
 $ echo ".envrc" >> .gitignore
-$ echo $DATA_PATH_HOST >> .gitignore
+$ echo $DATA_PATH_HOST | sed -e "s/.\///" >> .gitignore
 $ docker-compose up -d
 $ mix phx.server
 ```

@@ -1,3 +1,6 @@
+# common
+COMPOSE_PROJECT_NAME=
+
 # postgres
 POSTGRES_TAG=11.8-alpine
 POSTGRES_USER=postgres
